@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Big Shoulders Display', sans-serif;
+	font-family: 'Lexend Deca', sans-serif;
+}
+.container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box {
+	height: 500px;
+	width: 300px;
+}
+.car-1 {
+	background-color: hsl(31, 77%, 52%);
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.car-2 {
+	background-color: hsl(184, 100%, 22%);
+}
+.car-3 {
+	background-color: hsl(179, 100%, 13%);
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+img {
+	position: relative;
+	top: 40px;
+	left: 40px;
+}
+h1 {
+	position: relative;
+	top: 80px;
+	left: 50px;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Big Shoulders Display', sans-serif;
+}
+p {
+	position: relative;
+	top: 130px;
+	padding: 0 40px;
+	color: white;
+}
+button {
+	position: relative;
+	top: 230px;
+	left: 40px;
+	width: 150px;
+	height: 50px;
+	border-radius: 25px;
+	border: none;
+	font-weight: bold;
+}
+.btn-1 {
+	color: hsl(31, 77%, 52%);
+}
+.btn-2 {
+	color: hsl(184, 100%, 22%);
+}
+.btn-3 {
+	color: hsl(179, 100%, 13%);
+}
+button:hover {
+	cursor: pointer;
+	color: white;
+	border: solid 2px white;
+}
+.btn-1:hover {
+	background-color: hsl(31, 77%, 52%);
+}
+.btn-2:hover {
+	background-color: hsl(184, 100%, 22%);
+}
+.btn-3:hover {
+	background-color: hsl(179, 100%, 13%);
+}
+
+
